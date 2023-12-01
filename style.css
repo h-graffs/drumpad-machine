@@ -1,0 +1,79 @@
+#drum-machine {
+  background-color: #00fe44;
+  width: 70%;
+  border: 10px solid black;
+  border-radius: 30px;
+  margin: auto auto;
+}
+
+#drumpads {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: auto auto;
+}
+
+.drum-pad {
+  border-width: 3px;
+  border-radius: 10px;
+  font-size: 6.5vw;
+  font-family: Stencil;
+  min-width: 2.5em;
+  max-height: 4em;
+}
+
+#Heater1, #Heater2, #Heater3, #Heater4, #Heater6, #DscOh, #KicknHat, #Kick1, #CevH2:hover {
+  cursor: pointer;
+}
+
+#display {
+  background-color: red;
+  width: 45%;
+  font-size: 1.5rem;
+  margin: auto auto;
+  margin-top: 0.5em;
+  font-family: verdana;
+}
+
+#display-div {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+#instructions {
+  margin: auto auto;
+  width: 80%;
+  text-align: center;
+  font-size: 2.5vw;
+  background-color: black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-family: verdana;
+  width: 70%;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+#title-header1 {
+  font-family: Rubik;
+  width: 70%;
+  text-align: left;
+  margin: auto auto;
+  font-size: 6vw;
+  max-width: 700px;
+}
+
+#title-header2 {
+  font-family: Rubik;
+  width: 70%;
+  text-align: left;
+  margin: auto auto;
+  font-size: 10vw;
+  max-width: 700px;
+}

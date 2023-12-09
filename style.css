@@ -65,8 +65,7 @@
   width: 70%;
   text-align: left;
   margin: auto auto;
-  font-size: 6vw;
-  max-width: 700px;
+  font-size: 6vw; 
 }
 
 #title-header2 {
@@ -75,5 +74,4 @@
   text-align: left;
   margin: auto auto;
   font-size: 10vw;
-  max-width: 700px;
 }

@@ -1,9 +1,12 @@
+/* fix issue with display text at smaller widths */
+
 #drum-machine {
   background-color: #00fe44;
   width: 70%;
   border: 10px solid black;
   border-radius: 30px;
   margin: auto auto;
+  padding-bottom: 20px;
 }
 
 #drumpads {
@@ -27,12 +30,16 @@
 }
 
 #display {
-  background-color: red;
+  background-color: black;
+  color: red;
   width: 45%;
-  font-size: 1.5rem;
+  font-size: 4vw;
   margin: auto auto;
   margin-top: 0.5em;
-  font-family: verdana;
+  font-family: Rubik, verdana;
+  font-weight: heavy;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 #display-div {
